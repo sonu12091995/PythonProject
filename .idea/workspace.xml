@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03859510-0709-4e20-bf98-53bb4389db1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DataTypes/DeleteVariable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oprator/ArthmeticOprator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oprator/Concetination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oprator/FotmationOutput.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oprator/LogicalOprator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oprator/RelationOprators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Oprator/TakeInputUser.py" afterDir="false" />
+    <list default="true" id="03859510-0709-4e20-bf98-53bb4389db1a" name="Changes" comment="Oprator">
+      <change afterPath="$PROJECT_DIR$/src/ContrllStatement/ForLoop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContrllStatement/RangeFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JumpingStatement/Break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JumpingStatement/Continue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberAndString/Number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +50,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ArthmeticOprator.executor": "Run",
+    "Python.Break.executor": "Run",
     "Python.DeleteVariable.executor": "Run",
     "Python.FotmationOutput.executor": "Run",
     "Python.Hello.executor": "Run",
+    "Python.IfStatement.executor": "Run",
     "Python.KeyWord.executor": "Run",
+    "Python.Number.executor": "Run",
     "Python.Type.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -68,8 +71,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.FotmationOutput">
-    <configuration name="DeleteVariable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Number">
+    <configuration name="ArthmeticOprator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,12 +81,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/DataTypes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Oprator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/DataTypes/DeleteVariable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Oprator/ArthmeticOprator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Break" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/JumpingStatement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/JumpingStatement/Break.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="IfStatement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,12 +150,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/01_PythonBasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ContrllStatement" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/01_PythonBasic/Hello.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ContrllStatement/IfStatement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="KeyWord" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,35 +173,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/01_PythonBasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/NumberAndString" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/01_PythonBasic/KeyWord.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Type" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/DataTypes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/DataTypes/Type.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/NumberAndString/Number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Number" />
+        <item itemvalue="Python.Break" />
+        <item itemvalue="Python.ArthmeticOprator" />
+        <item itemvalue="Python.IfStatement" />
         <item itemvalue="Python.FotmationOutput" />
-        <item itemvalue="Python.DeleteVariable" />
-        <item itemvalue="Python.Type" />
-        <item itemvalue="Python.KeyWord" />
-        <item itemvalue="Python.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -211,17 +214,36 @@
       <updated>1759854459162</updated>
       <workItem from="1759897777808" duration="3537000" />
       <workItem from="1759984500202" duration="4258000" />
-      <workItem from="1760060645035" duration="4287000" />
+      <workItem from="1760060645035" duration="9987000" />
+      <workItem from="1760324085673" duration="773000" />
+      <workItem from="1760442485542" duration="6257000" />
     </task>
+    <task id="LOCAL-00001" summary="Oprator">
+      <option name="closed" value="true" />
+      <created>1760072824817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760072824818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Oprator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oprator" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject$ArthmeticOprator.coverage" NAME="ArthmeticOprator Coverage Results" MODIFIED="1760324272286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Oprator" />
+    <SUITE FILE_PATH="coverage/PythonProject$Number.coverage" NAME="Number Coverage Results" MODIFIED="1760453672390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/NumberAndString" />
     <SUITE FILE_PATH="coverage/PythonProject$DeleteVariable.coverage" NAME="DeleteVariable Coverage Results" MODIFIED="1760060866860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/DataTypes" />
     <SUITE FILE_PATH="coverage/PythonProject$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1759984569501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/01_PythonBasic" />
     <SUITE FILE_PATH="coverage/PythonProject$Type.coverage" NAME="Type Coverage Results" MODIFIED="1760001709994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/DataTypes" />
+    <SUITE FILE_PATH="coverage/PythonProject$Break.coverage" NAME="Break Coverage Results" MODIFIED="1760452260823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/JumpingStatement" />
+    <SUITE FILE_PATH="coverage/PythonProject$IfStatement.coverage" NAME="IfStatement Coverage Results" MODIFIED="1760107557943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ContrllStatement" />
     <SUITE FILE_PATH="coverage/PythonProject$KeyWord.coverage" NAME="KeyWord Coverage Results" MODIFIED="1760000415298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/01_PythonBasic" />
     <SUITE FILE_PATH="coverage/PythonProject$FotmationOutput.coverage" NAME="FotmationOutput Coverage Results" MODIFIED="1760068530849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Oprator" />
   </component>
