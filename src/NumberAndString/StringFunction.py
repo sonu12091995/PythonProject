@@ -58,3 +58,46 @@ print("Slice with negative indices:", slice4)  # Output: World
 print(ord('A')) #65  Ascii value
 print(chr(66)) # B
 
+
+
+# max,min,length
+print(max("abc"))#c
+print(min("abc"))#a
+print(len("abc"))#3
+
+
+# in or not in
+fruite = "bnanna"
+print("uite" in fruite) # (true) in means uite is the part of fruite
+print("sone" not in fruite) #(true) not in means sonu is not part of fruite
+
+
+# String compersion
+
+# Example 8: String comparison
+
+print("tim" == "tie")         # False → 'tim' is not equal to 'tie'
+print("free" != "freedom")    # True  → the two strings are different
+print("arrow" > "aron")       # True  → compared alphabetically ('a'=='a', 'r'=='r', 'r'>'o')
+print("right" >= "left")      # True  → 'r' comes after 'l' in dictionary order
+print("teeth" < "tee")        # False → 'teeth' is longer but starts with 'tee', so it's greater
+print("yellow" <= "fellow")   # False → 'y' comes after 'f'
+print("abc" > "")             # True  → any non-empty string is greater than an empty string
+
+
+
+# Example9 : Testing strings True/False
+
+s = "welcome to python"
+
+print(s.isalnum())                # False
+print("Welcome".isalpha())        # True
+
+print("2012".isdigit())           # True
+
+print("first Number".isidentifier())  # False
+
+print(s.islower())                # True
+print("WELCOME".isupper())        # True
+
+print(" ".isspace())              # True
